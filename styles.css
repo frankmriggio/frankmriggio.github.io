@@ -1,0 +1,84 @@
+.background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+body, html {
+    margin: 0;
+}
+
+.stop {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 1450px;
+    height: 200px;
+}
+
+.starttext {
+    position: absolute;
+    color: black;
+    z-index: 1;
+    margin-left: 1370px;
+    margin-top: 250px;
+    font-size: 16pt;
+}
+
+.reset {
+    visibility: hidden; 
+    margin-left: 1510px; 
+    margin-top: 0px; 
+    padding: 5px;
+    z-index: 1;
+}
+
+.welcome {
+    position: absolute;
+    margin-top: 225px;
+    margin-left: 1360px;
+}
+
+.pokemon1win {
+    visibility: hidden; 
+    color: white; 
+    margin-left: 600px; 
+    margin-top: 0px; 
+    padding-top: 300px;
+}
+
+.pokemon2win {
+    visibility: hidden; 
+    color: white; 
+    margin-left: 600px; 
+    margin-top: -60px; 
+    padding-top: 0px;
+}
+
+.tie {
+    visibility: hidden;
+    margin-left: 1410px; 
+    margin-top: -60px;
+}
+
+.finish {
+    position: absolute;
+    margin-left: 1380px;
+    margin-top: 50px;
+    height: 100px;
+}
+
+.squirtlewin {
+    position: absolute;
+    visibility: hidden;
+    margin-left: 550px;
+    margin-top: -250px;
+}
+
+.munchwin {
+    position: absolute;
+    visibility: hidden;
+    margin-left: 600px;
+    margin-top: -260px;
+    height: 200px;
+}

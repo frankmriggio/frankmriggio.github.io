@@ -4,17 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Frank's Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>The Great Race</title>
 </head>
 <body>
-    <p>
-        this is my homepage
-    </p>
-    <p>
-        my name is frank lease load
-    </p>
-    <p>
-        please help this is dumb
-    </p>
+    <h1 class="welcome" id="welcome">Welcome to the Great Race</h1>
+
+    <div class="starttext" id="starttext">
+        <p><b>Click the traffic light to begin the race!</b></p>
+    </div>
+
+    <div class="racetrack">
+        <img src="background.png" class="background" id="background">
+    </div>
+
+    <div class="lights">
+        <img src="stop1.png" id="stop" class="stop" onclick="StartRace(document.getElementById('stop').src)"/>
+    </div>
+
+    <div class="racer1">
+        <img src="pokemon1b.png" id="pokemon1" style="position: absolute; left:0; margin-top: 500px;">
+    </div>
+
+    <div class="racer2">
+        <img src="pokemon2a.png" id="pokemon2" style="position: absolute; left: 0; margin-top: 650px;">
+    </div>
+
+    <div>
+        <h1 id="pokemon1win" class="pokemon1win">Squirtle Wins!</h1>
+        <img src="squirtlewin.jpg" class="squirtlewin" id="squirtlewin" onclick="Reset(document.getElementById('reset'))">
+        <h1 id="pokemon2win" class="pokemon2win"> Munchlax Wins!</h1>
+        <img src="munchlaxwin2.jpg" class="munchwin" id="munchwin" onclick="Reset(document.getElementById('reset'))">
+        <h1 id="tie" class="tie">The race is a draw!</h1>
+    </div>
+
+    <img src="finish.png" id="finish" class="finish">
+
+    <div>
+        <input type="button" value="Reset" id="reset" class="reset" onclick="Reset(document.getElementById('reset'))">
+    </div>
+
+    <script src='scripts.js'></script>
 </body>
 </html>
