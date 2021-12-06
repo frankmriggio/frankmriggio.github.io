@@ -1,3 +1,10 @@
+/*
+    Frank Riggio
+    ITC 370-899
+    The Great Race Assignment
+    12/06/2021
+*/
+
 const pokem1 = new Object();
 pokem1.name = "Mon1";
 pokem1.distance = 0;
